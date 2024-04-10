@@ -2,9 +2,7 @@
   "manifest_version": 3,
   "name": "Skin Irritant Scanner",
   "version": "1.0",
-  "permissions": ["tabs", "activeTab"],
   "action": {
-    "permissions": ["tabs", "activeTab"],
     "default_popup": "popup.html"
   },
 

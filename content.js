@@ -5,9 +5,6 @@
 */
 
 
-//The main route which the application is intended for
-const SEPH = "https://www.sephora.com/product";
-
 //an unfortunately extensive list of known irritating ingredients found in skincare
 const badIngs = ["acetylatedlanolin","acetylatedlanolinalcohol","acetylatedwoolfat","acetylatedwoolwax","adansoniadigitatal","agar","ahnfeltiopsisconcinnaextract","alariaesculentaextract","algabladderwrack","algae","algaeextract","algin","alginate","alginicacid","algea","aphanothecesacrumpolysaccharide","arthrospiraplantensis","ascophyllumnodosumextract","asparagopsisarmataextract","baobab","beeswax",
 "bismuth","bryopsisafricana","butylstearate","butyrospermum","cacaoseedbutter","capeabiruncinatavardenudasonder","capeabiruncinatavarelongatasonder","carageenangum","carastayc","caulerpalentilliferaextract","caulerpafiliformis","carrageenan","carrageenanmoss","ceraalba","cerabianca","ceraflava","ceraolea","cetearyalcohol+ceteareth20","chaetomorphalinum(aerea)cladophoraradiosa","chlamydomonasreinhardtiiextract","chlorella",
@@ -20,7 +17,6 @@ const badIngs = ["acetylatedlanolin","acetylatedlanolinalcohol","acetylatedwoolf
 "polysiphoniaelongataextract","polyglyceryl-3diisostearate","polyglyceryl-3-disostearate","porphyraumbilicalis","porphyridium","porphyridiumcruentumextract","potassiumchloride","potassiumsalt","propyleneglycolmonostearate","pyrenecoaltarpitch","redalgae","rhodophyta","rhodophyceaeextract","sargassumfilipendulaextract","sargassumfusiformeextract","sclerocaryabirrea","sclerocaryabirreaseedoil","seaweed",
 "seafern","sesame","sesamumindicum","sharkliveroil","sharksqualene","shea","sheabutter","sheepalcohol","simmondsiachinensisseedwax","sles","sls","sodiumalginate","sodiumlaurethsulfate","sodiumlaurylsulfate","soja","solulan16","sorbitanoleate","soy","soybean","soybeanoil","sphacelaria","spirulina","squalene","steareth10","stearicacidtea","stearylheptanoate","starch","sulfatedcastoroil","sulfatedjojobaoil",
 "sulfosuccinate","sulphatedcastoroil","talc","talcum","teastearate","tetradecylmyristate","theobromabutter","theobromacocoaseedbutter","theobramaoil","triticumaestivum","triticumvulgare","turkeyredoil","undariapinnatifida","ulvalactuca","ulvafasciata","ulvarhacodes","vegetablegelatin","vitellariaparadoxa","wakame","wheat","wheatgermglyceride","wheatgermoil","woolalcohol","woolfat","xanthophyta","xylene","zeamays"];
-//key value pair of harmful ingredients + lvls of harm?
 //https://www.tutorialspoint.com/split-the-sentences-by-comma-and-remove-surrounding-spaces-javascript#:~:text=Split%20the%20sentences%20by%20comma%20and%20remove%20surrounding%20spaces%20%2D%20JavaScript%3F,-JavascriptWeb%20Development&text=var%20sentences%20%3D%20%22%20John%20%2C%20David,surrounding%20spaces%2C%20use%20trim(). used to split the textcontent
 
 //function to get "irritating" ingredients from the current product
